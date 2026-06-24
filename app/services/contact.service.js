@@ -10,6 +10,7 @@ class ContactService {
       email: payload.email,
       address: payload.address,
       phone: payload.phone,
+      hobby: payload.hobby,
       favorite: payload.favorite,
     };
     // Remove undefined fields
